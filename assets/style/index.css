@@ -1,0 +1,77 @@
+@import url("./reset.css");
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+.calculator {
+  width: 280px;
+  height: 400px;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0 / 0.2);
+}
+
+.display {
+  width: 250px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+.display input {
+	width: 100%;
+	border: none;
+	font-size: 25px;
+	text-align: right;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: #ff6666;
+  color: #fff;
+  width: 178px;
+}
+
+.zero {
+  background-color: #fff;
+  width: 115px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+	background-color: #ddd;
+}
+
+.operator {
+	background-color: #ff9800;
+	color: #fff;
+}
+
