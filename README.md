@@ -1,6 +1,28 @@
 ## Welcome
 
-Hello, world. I am Asif, web developer. 
+Hello, world. I am Asif, Software developer. 
+
+## Project Overview
+
+In this project, I developed a calculator that performs basic arithmetic operations and allows users to enter floating-point numbers. The calculator will have a clear button, and the result will be displayed as soon as the user presses the ' = ' button. The display will show both numbers and operators.
+
+## Requirements
+
+- Design a basic and recognizable calculator using HTML and CSS.
+- Implement the following features:
+  - Basic arithmetic operations (addition, subtraction, multiplication, division).
+  - Ability to enter floating-point numbers.
+  - Display the result immediately after pressing the ' = ' button.
+  - Clear button to reset the calculator.
+  - Display section to show numbers and operators.
+  
+## Project Structure
+
+The project consists of the following components:
+
+- **HTML**: The structure of the calculator interface.
+- **CSS**: Styling for the calculator interface.
+- **JavaScript**: Logic for performing arithmetic operations and updating the display.
 
 ### Demo
 
